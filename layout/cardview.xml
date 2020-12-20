@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascotas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/margen_vertical"
+    android:paddingBottom="@dimen/margen_vertical"
+    android:paddingLeft="@dimen/margen_horizontal"
+    android:paddingRight="@dimen/margen_horizontal"
+    android:background="@color/fdo_cardview"
+    android:layout_below="@id/miActionBar"
+    app:cardCornerRadius="@dimen/radius_cv">
+
+    <LinearLayout
+        android:id="@+id/llcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/fotoMascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/fdo_img_cardview"
+            android:contentDescription="@string/foto_mascota"
+            android:src="@drawable/pataperro"/>
+
+        <RelativeLayout
+            android:id="@+id/llcvDetalles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@color/fdo_cardview"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/imgHuesear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/huesear"
+                android:background="@color/fdo_cardview"
+                android:src="@drawable/iconohueso"
+                android:layout_alignParentLeft="true"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/tvNombreMascotaCV"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/fdo_cardview"
+                android:text="@string/nombre_mascota"
+                android:textSize="@dimen/cv_texto"
+                android:textStyle="bold" />
+            </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/tvVisitasCV"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/visitas_mascotas"
+                android:textStyle="bold"
+                android:textSize="@dimen/cv_texto"
+                android:gravity="end" />
+
+            <ImageView
+                android:id="@+id/imgH2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iconohuesoama" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

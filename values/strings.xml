@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="nombre_mascota">mascota</string>
+    <string name="visitas_mascotas">0</string>
+    <string name="visitas">Mascotas mas vistas</string>
+    <string name="huesear">Huesear</string>
+    <string name="hueseos">Hueseos</string>
+    <string name="foto_mascota">Foto de la mascota</string>
+    <string name="title_activity_actionbar">actionbar</string>
+
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acerca_de">Acerca de</string>
+    <string name="menu_ranking">Ir al Ranking</string>
+    <string name="acercade_primero">Desarrollado por Fernando Marino</string>
+    <string name="acercade_segundo">Todos los derechos reservados \u00a9 2020.</string>
+    <string name="hello_blank_fragment">Segundo fragment</string>
+    <string name="home">Home</string>
+    <string name="perro">Perro</string>
+</resources>

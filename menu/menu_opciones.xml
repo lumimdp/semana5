@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mRanking"
+        android:icon="@drawable/estrella"
+        android:title="@string/menu_ranking"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/mMenuContacto"
+        android:title="@string/menu_contacto"
+        android:orderInCategory="102">
+
+    </item>
+
+    <item
+        android:id="@+id/mAcercaDe"
+        android:title="@string/menu_acerca_de"
+        android:orderInCategory="150"
+        >
+
+    </item>
+
+</menu>

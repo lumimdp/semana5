@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.appbar.MaterialToolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/miToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/actionbar"
+    android:elevation="@dimen/elevacion_actionbar"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+
+    <ImageView
+        android:id="@+id/pataPerro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pataperro" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fuente_titulo"
+        android:textStyle="bold"
+        android:layout_below="@id/pataPerro"/>
+
+    <ImageButton
+        android:id="@+id/img_estrella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/actionbar"
+        android:contentDescription="@string/visitas"
+        android:src="@drawable/estrella"
+        android:onClick="irAlRanking"
+        android:layout_below="@id/titulo"/>
+
+</com.google.android.material.appbar.MaterialToolbar>

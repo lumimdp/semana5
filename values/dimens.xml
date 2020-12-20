@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen_horizontal">16dp</dimen>
+    <dimen name="margen_vertical">16dp</dimen>
+    <dimen name="fuente_titulo">20sp</dimen>
+    <dimen name="cv_texto">20sp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="titulo">150dp</dimen>
+    <dimen name="radius_cv">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
